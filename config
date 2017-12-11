@@ -146,6 +146,8 @@ colors {
 # exec nm-applet
 exec nitrogen --restore
 exec compton -f -b
+exec rslsync
+exec macchanger -r -b
 
 new_window normal 0
 # class                 border  backgr. text    indicator
