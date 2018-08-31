@@ -145,7 +145,7 @@ bindsym $mod+r mode "resize"
 
 # exec nm-applet
 exec "nitrogen --restore"
-exec volumeicon
+#exec volumeicon
 
 new_window normal 0
 # class                 border  backgr. text    indicator
