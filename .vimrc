@@ -18,3 +18,13 @@
 :set backspace=indent,eol,start
 
 :imap jj <Esc>
+
+" specify a plugin directory
+call plug#begin('~/.local/share/nvim/plugged')
+
+Plug 'rafi/awesome-vim-colorschemes'
+
+Plug 'preservim/nerdtree'
+
+" initialize plugin system
+call plug#end()
