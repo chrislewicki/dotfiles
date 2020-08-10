@@ -94,6 +94,5 @@ export NVM_DIR="/home/$USER/.nvm"
 #    source $venvwrap
 #fi
 
-alias music ncmpcpp
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
