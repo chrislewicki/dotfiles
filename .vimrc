@@ -20,15 +20,3 @@
 " causes lag on pressing <Esc>
 " frustrated with it, but keeping around
 " :imap jj <Esc>
-
-" specify a plugin directory
-call plug#begin('~/.local/share/nvim/plugged')
-
-Plug 'rafi/awesome-vim-colorschemes'
-
-Plug 'preservim/nerdtree'
-map <C-n> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
-" initialize plugin system
-call plug#end()
