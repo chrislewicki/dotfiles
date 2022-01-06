@@ -83,6 +83,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias k="kubectl"
+alias uc="kubectl use-context"
+alias lspodsfor="kubectl get pods | grep"
+alias lsjobsfor="kubectl get jobs | grep"
+
 export NVM_DIR="/home/$USER/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
