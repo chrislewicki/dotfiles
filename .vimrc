@@ -17,6 +17,6 @@
 
 :set backspace=indent,eol,start
 
-" causes lag on pressing <Esc>
-" frustrated with it, but keeping around
-" :imap jj <Esc>
+causes lag on pressing <Esc>
+frustrated with it, but keeping around
+:imap jj <Esc>
